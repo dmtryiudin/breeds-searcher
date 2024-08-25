@@ -56,7 +56,7 @@ export async function GET(request: NextRequest) {
         message:
           e?.response?.statusText || "Something went wrong. Try again later.",
       },
-      { status: e?.response.status || 500 }
+      { status: e?.response?.status || 500 }
     );
   }
 }

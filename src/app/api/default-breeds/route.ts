@@ -26,7 +26,7 @@ export async function GET() {
         message:
           e?.response?.statusText || "Something went wrong. Try again later.",
       },
-      { status: e?.response.status || 500 }
+      { status: e?.response?.status || 500 }
     );
   }
 }
