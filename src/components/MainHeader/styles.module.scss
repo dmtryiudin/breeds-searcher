@@ -1,0 +1,11 @@
+.wrapper {
+  @apply border-b border-gray-200 shadow-md shadow-gray-200;
+}
+
+.mainLogo {
+  @apply min-w-10 h-10;
+}
+
+.contentWrapper {
+  @apply flex items-center justify-between py-2 gap-5;
+}

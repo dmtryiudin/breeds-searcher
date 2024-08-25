@@ -1,0 +1,27 @@
+.image {
+  @apply h-80 object-cover object-center;
+
+  &Loading {
+    @apply h-0;
+  }
+}
+
+.loadingWrapper {
+  @apply h-80 flex items-center justify-center;
+}
+
+.imagesWrapper {
+  @apply flex items-center absolute transition duration-500;
+}
+
+.frame {
+  @apply relative h-80 overflow-hidden;
+}
+
+.changeImageButton {
+  @apply bg-white border border-orange-500 text-orange-500 hover:bg-orange-50 rounded-lg p-2 active:translate-y-2 transition;
+}
+
+.buttonsWrapper {
+  @apply flex items-center justify-between w-full absolute top-1/2 -translate-y-1/2 z-30 px-3;
+}

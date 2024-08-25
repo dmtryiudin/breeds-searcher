@@ -1,0 +1,7 @@
+.searchText {
+  @apply font-semibold;
+}
+
+.wrapper {
+  @apply flex items-center gap-1 bg-orange-500 text-white rounded-lg p-2 hover:bg-orange-300 active:translate-y-2 transition w-fit;
+}

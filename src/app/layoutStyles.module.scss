@@ -1,0 +1,7 @@
+.wrapper {
+  @apply flex flex-col;
+}
+
+.children {
+  @apply flex-auto;
+}

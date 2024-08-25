@@ -1,0 +1,23 @@
+.h2 {
+  @apply text-center w-full text-lg font-medium text-black;
+}
+
+.detailsWrapper {
+  @apply flex flex-col gap-2;
+}
+
+.wrapper {
+  @apply flex flex-col gap-5 py-5;
+}
+
+.mainInfoWrapper {
+  @apply flex gap-5 flex-col items-center md:items-start lg:flex-row;
+}
+
+.carouselWrapper {
+  @apply hidden md:block;
+}
+
+.carouselWrapperMobile {
+  @apply md:hidden;
+}

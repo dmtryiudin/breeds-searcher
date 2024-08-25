@@ -1,0 +1,15 @@
+.cardsWrapper {
+  @apply grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-fit gap-5 mx-auto;
+}
+
+.wrapper {
+  @apply flex flex-col gap-5 py-5 h-full;
+}
+
+.noItemsWrapper {
+  @apply flex items-center justify-center h-full;
+}
+
+.notFoundText {
+  @apply text-lg font-medium text-black;
+}
